@@ -9,6 +9,12 @@
     "test": {
       "env": {
         "HEROKU_UAT": "enabled"
+      },
+      "formation": {
+        "test": {
+          "quantity": 1,
+          "size": "standard-1x"
+        }
       }
     }
   }
