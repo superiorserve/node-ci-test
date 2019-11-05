@@ -7,16 +7,12 @@
   "image": "heroku/nodejs",
   "environments": {
     "test": {
-      "env": {
-        "HEROKU_UAT": "enabled"
-      },
       "formation": {
         "test": {
           "quantity": 1,
           "size": "standard-1x"
         }
-      },
-      "addons": ["heroku-postgresql:in-dyno", "heroku-redis:in-dyno"]
+      }    
     }
   }
 }
